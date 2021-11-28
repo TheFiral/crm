@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div style="min-height: 50px; max-height: 50px; overflow: hidden; background-color: cornflowerblue;">
+    <div style="padding: 10px 10px 10px 10px; background: red;">
+        <div class="under-button">
+            <button class="create-dashboard">создать доску</button>
+        </div>
+        <div class="under-button">
+            <button class="change-dashboard">выбрать доску</button>
+        </div>
+        <div class="under-button">
+            <button class="something">что-то</button>
+        </div>
+    </div>
+</div>
+<main>
+    <div style="display: flex; flex-direction: row; flex: 1 1 0; position: relative; overflow-y: auto; background-color: cadetblue">
+        <div style="display: flex; flex-direction: row; flex: 1 1 0; position: relative; overflow-y: auto; background-color: aqua">
+            <div class="board">
+                <div class="task-list-wrapper"><h3>мысли и действия</h3>
+                    <button class="create-new-task">создать новую задачу</button>
+                </div>
+                <div class="task-list-wrapper"><h3>нужно сделать</h3>
+                    <button class="create-new-task">создать новую задачу</button>
+                </div>
+                <div class="create-new-section">
+                    <button class="create-section">создать раздел</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="action.js"></script>
+</body>
+</html>

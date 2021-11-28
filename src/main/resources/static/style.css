@@ -1,0 +1,29 @@
+.task-list-wrapper{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: gray;
+    height: 100%;
+    margin: 0 4px;
+    vertical-align: top;
+    width: 150px;
+}
+
+.create-new-section{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: gray;
+    height: 100%;
+    margin: 0 4px;
+    vertical-align: top;
+    width: 150px;
+}
+
+.under-button{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: gray;
+    height: 100%;
+    margin: 0 4px;
+    vertical-align: top;
+    width: 150px;
+}
